@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Kotlin",
+            "type": "shell",
+            "command": "\"kotlinc-jvm -d output todo.kt\" ; \"kotlin -classpath output TodoKt\"",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
